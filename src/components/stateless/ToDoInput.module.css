@@ -1,0 +1,24 @@
+.todoForm {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--input-bg);
+    border-radius: 5px;
+}
+
+.todoCircle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--circle-border);
+    border-radius: 50%;
+}
+
+.todoInput {
+    flex: 1;
+    background-color: var(--input-bg);
+    border: none;
+    font-size: 1rem;
+    color: var(--text-color);
+    outline: none;
+}

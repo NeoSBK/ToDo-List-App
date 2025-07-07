@@ -1,0 +1,45 @@
+.light {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --input-bg: #f9f9f9;
+    --circle-border: #cccccc;
+}
+
+.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #eeeeee;
+    --input-bg: #2b2b2b;
+    --circle-border: #555555;
+}
+
+.dark {
+    background-color: hsl(235, 21%, 11%);
+    color: white;
+    min-height: 100vh;
+}
+
+.light {
+    background-color: hsl(0, 0%, 98%);
+    color: black;
+    min-height: 100vh;
+}
+
+.background {
+    background-image: url('./assets/images/bg-desktop-light.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.dark .background {
+    background-image: url('./assets/images/bg-desktop-dark.jpg');
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+    top: -250px;
+}

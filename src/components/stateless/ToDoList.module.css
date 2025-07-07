@@ -1,0 +1,51 @@
+.todoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todoList {
+    background-color: var(--input-bg);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--circle-border);
+    width: 100%;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.todoItem:last-child {
+    border-bottom: none;
+}
+
+.todoCircle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--circle-border);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.todoCircle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.completed .taskText {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
