@@ -1,7 +1,6 @@
 {
   "name": "todo-app",
   "homepage": "https://NeoSBK.github.io/ToDo-List-App-",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
