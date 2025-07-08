@@ -3,6 +3,9 @@
     --text-color: #333333;
     --input-bg: #f9f9f9;
     --circle-border: #cccccc;
+    background-color: hsl(0, 0%, 98%);
+    color: var(--text-color);
+    min-height: 100vh;
 }
 
 .dark {
@@ -10,17 +13,8 @@
     --text-color: #eeeeee;
     --input-bg: #2b2b2b;
     --circle-border: #555555;
-}
-
-.dark {
     background-color: hsl(235, 21%, 11%);
     color: white;
-    min-height: 100vh;
-}
-
-.light {
-    background-color: hsl(0, 0%, 98%);
-    color: black;
     min-height: 100vh;
 }
 

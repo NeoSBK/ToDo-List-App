@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-top: 1px solid var(--circle-border);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px 5px;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.items {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+}
+
+button {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--primary-color);
+}
+
+.active {
+    font-weight: bold;
+    color: var(--primary-color);
+}
